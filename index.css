@@ -1,0 +1,98 @@
+.task-manager h1{
+    /* margin-top: 200px; */
+    text-align: center;
+    align-items: center;
+    font-size: 55px;
+   
+    
+}
+
+
+body{
+    background: url(https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80);
+
+    /* background: no-repeat; */
+    background-size: cover;
+    
+    
+}
+
+/* form */
+
+.task-form{
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+
+
+.search input{
+    border: none;
+    appearance: none;
+    outline: none;
+    cursor: initial;
+    background: none;
+}
+
+.search{
+    border: 1px solid cadetblue;
+    margin: 0 40rem ;
+    border-radius: 20px;
+    background-color: white;
+    height:40px;
+    
+}
+
+.btn {
+    border: none;
+    outline: none;
+    appearance: none;
+    background-color: white;
+    font-size: 25px;
+    margin-top: ;
+
+}
+.bt1 {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: rgb(34, 34, 231);
+    color: whitesmoke;
+
+}
+
+.bt2{
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: brown;
+    color: whitesmoke;
+}
+
+.bt3{
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    
+}
+
+.task-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 40px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor:default;
+    background-color:cadetblue;
+}
+
+.box:hover{
+    background-color: azure;
+}
